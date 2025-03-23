@@ -1,0 +1,23 @@
+
+---
+
+### **3. 24_LogAlertWatchdog**  
+**Description:**  
+A Python analyzer for parsing logs and detecting suspicious activity or repeated failures.
+
+#### **README.md**
+```markdown
+# LogAlertWatchdog - Log Monitoring Utility
+
+LogAlertWatchdog scans system and app logs for frequent warnings, failed authentications, and runtime errors.
+
+## Features
+- Parses syslog, auth.log, and app logs  
+- Frequency-based alerting  
+- Output to console or file  
+
+## Usage
+```bash
+git clone https://github.com/your-username/24_LogAlertWatchdog.git
+cd 24_LogAlertWatchdog
+python analyze.py /path/to/logfile.log
