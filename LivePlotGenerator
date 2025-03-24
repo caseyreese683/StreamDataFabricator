@@ -1,0 +1,23 @@
+
+---
+
+### **4. 24_LivePlotGenerator**  
+**Description:**  
+A real-time charting tool using Matplotlib to visualize any numeric data stream.
+
+#### **README.md**
+```markdown
+# LivePlotGenerator - Real-Time Visualization
+
+LivePlotGenerator builds animated charts from incoming data. Ideal for sensor streams, simulations, or logs.
+
+## Features
+- Real-time line graphs  
+- Customizable input stream  
+- Pause/resume visualization  
+
+## Usage
+```bash
+git clone https://github.com/your-username/24_LivePlotGenerator.git
+cd 24_LivePlotGenerator
+python visualize.py
